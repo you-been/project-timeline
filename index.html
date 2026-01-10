@@ -428,7 +428,7 @@
     }
 
     .card h3::before {
-      content: "✨";
+      content: "💻";
       font-size: 18px;
     }
 
@@ -448,6 +448,10 @@
 
     li::marker {
       color: var(--accent);
+    }
+
+    li.build::marker {
+      color: var(--accent3);
     }
 
     .card:hover li {
@@ -546,7 +550,7 @@
         <!-- 25.07 ~ 08 -->
         <article class="item">
           <span class="marker" aria-hidden="true"></span>
-          <div class="range">2025. 07. ~ 2025. 08.</div>
+          <div class="range">25.07 ~ 08</div>
           <div class="card">
             <h3>기초 학습 · 초기 세팅</h3>
             <ul>
@@ -554,7 +558,7 @@
               <li>Web 초기 설정 (코드 컨벤션, 폴더 구조)</li>
               <li>로그인 와이어프레임 기반 화면 구현 연습</li>
               <li>바코드 라이브러리 탐색</li>
-              <li>기술 세미나 (GitHub 사용법)</li>
+              <li>기술 세미나 (GitHub 사용)</li>
             </ul>
           </div>
         </article>
@@ -562,13 +566,13 @@
         <!-- 25.09 ~ 10 -->
         <article class="item">
           <span class="marker" aria-hidden="true"></span>
-          <div class="range">2025. 09. ~ 2025. 10.</div>
+          <div class="range">25.09 ~ 10</div>
           <div class="card">
             <h3>로그인 UI · 역할 분배 · 데이터 검증</h3>
             <ul>
-              <li>로그인 화면 UI 구현</li>
+              <li class="build">로그인 화면 UI 구현</li>
               <li>작업 역할 분배 (메인 &amp; 보조)</li>
-              <li>바코드 검증 + 공공기관 데이터 연계</li>
+              <li class="build">바코드 검증 + 공공기관 데이터 연계</li>
             </ul>
           </div>
         </article>
@@ -576,13 +580,13 @@
         <!-- 25.10 ~ 11 -->
         <article class="item">
           <span class="marker" aria-hidden="true"></span>
-          <div class="range">2025. 10. ~ 2025. 11.</div>
+          <div class="range">25.10 ~ 11</div>
           <div class="card">
             <h3>메인 UI 골격 · 공통 컴포넌트</h3>
             <ul>
-              <li>메인화면 UI (Header, Sidebar)</li>
-              <li>공통 컴포넌트 UI (버튼)</li>
-              <li>로그인 UI 코드 리뷰</li>
+              <li class="build">메인화면 UI (Header, Sidebar)</li>
+              <li class="build">공통 컴포넌트 UI (버튼)</li>
+              <li class="build">로그인 UI 코드 리뷰</li>
             </ul>
           </div>
         </article>
@@ -590,14 +594,14 @@
         <!-- 25.11 ~ 12 -->
         <article class="item">
           <span class="marker" aria-hidden="true"></span>
-          <div class="range">2025. 11. ~ 2025. 12.</div>
+          <div class="range">25.11 ~ 12</div>
           <div class="card">
             <h3>아키텍처 · API · Drag &amp; Drop</h3>
             <ul>
               <li>네트워크 구조 정리 (FSD + Next.js)</li>
-              <li>로그인 API 연결</li>
+              <li class="build">로그인 API 연결</li>
               <li>기술 세미나 (FSD + Next 결합, FSD)</li>
-              <li>재고지도 Drag &amp; Drop</li>
+              <li class="build">재고지도 Drag &amp; Drop 구현</li>
             </ul>
           </div>
         </article>
@@ -605,13 +609,13 @@
         <!-- 25.12 ~ 26.01 -->
         <article class="item">
           <span class="marker" aria-hidden="true"></span>
-          <div class="range">2025. 12. ~ 2026. 01.</div>
+          <div class="range">25.12 ~ 26.01</div>
           <div class="card">
             <h3>리팩토링 · 베이스 코드 · 주요 화면</h3>
             <ul>
               <li>FSD 리팩토링 + React</li>
               <li>Network Base Code Dev</li>
-              <li>로그인, 홈, 재고현황 구현</li>
+              <li class="build">로그인, 홈, 재고현황 구현</li>
             </ul>
           </div>
         </article>
